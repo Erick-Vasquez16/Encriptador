@@ -3,24 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encriptador</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
 </head>
 <body>
+    <header>
+        <img  class="logo" alt="" src="img/logo.svg">
+      </header>
     <div class="container">
         <div class="encriptar">
-            <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Ingrese su texto aquí">
-
-            </textarea>
-        </div>
-        <div class="terminos">
-            <p>Solo letras en minúsculas y sin acentos.</p>
-        </div>
-        <div class="botones">
-            <button class="btn-encriptar" type="button" ondblclick="encriptar()">
-            Encriptar
-            </button>
-            <input type="button" class="btn-desencriptar" value="Desemcriptar">
+            <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Ingrese su texto aquí"></textarea>
+            <div class="terminos">
+                <p>Solo letras en minúsculas y sin acentos.</p>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" type="button" ondblclick="encriptar()">
+                Encriptar
+                </button>
+                <input type="button" class="btn-desencriptar" value="Desemcriptar">
+            </div>
         </div>
         <div class="encriptado">
             <img src="" alt="" id="muñeco">
