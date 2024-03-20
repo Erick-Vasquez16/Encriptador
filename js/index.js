@@ -5,11 +5,11 @@ function encriptar() {
     let muñeco = document.getElementById("muñeco");
   
     let textoCifrado = texto
-      .replace(/e/gi, "enter")
-      .replace(/i/gi, "imes")
-      .replace(/a/gi, "ai")
-      .replace(/o/gi, "ober")
-      .replace(/u/gi, "ufat");
+      .replace(/a/gi, "xcdv")
+      .replace(/e/gi, "*oxdn")
+      .replace(/i/gi, "wmq")
+      .replace(/o/gi, "axde")
+      .replace(/u/gi, "ra");
   
     if (document.getElementById("texto").length != 0) {
       document.getElementById("texto").value = textoCifrado;
@@ -30,11 +30,11 @@ function desencriptar() {
     let figura = document.getElementById("muñeco");
   
     let textoCifrado = texto
-      .replace(/ai/gi,"a")
-      .replace(/enter/gi,"e")
-      .replace(/imes/gi,"i")
-      .replace(/ober/gi,"o")
-      .replace(/ufat/gi,"u");
+      .replace(/xcdv/gi,"a")
+      .replace(/oxdn/gi,"e")
+      .replace(/wmq/gi,"i")
+      .replace(/axde/gi,"o")
+      .replace(/ra/gi,"u");
     
       if (texto.length != 0) {
         document.getElementById("texto").value = textoCifrado;
